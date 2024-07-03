@@ -1,0 +1,132 @@
+
+html {
+    margin: auto;
+    height: 30%;
+    max-width: 1300px;
+}
+body {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #F9F7F7;
+    font-family: sans-serif;
+    color: #32353f;
+    height: 30%;
+
+
+    /*margin: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+}
+a {
+    color: #EF626C;
+}
+
+.title {
+    text-align: center;
+}
+.title h2 {
+    color: #26272b;
+    font-size: 30px;
+}
+.title h3 {
+    color: #26272b;
+    margin-top: 5%;
+}
+.title hr {
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px;
+}
+.title img {
+    border-radius: 50%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.social {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.social h3 {
+    margin-top: 40px;
+}
+.social h4 a{
+    pointer-events: none;
+    text-decoration: none;
+} 
+.social li {
+    list-style-type: none;
+}
+.social section {
+    margin-top: 100px;
+}
+.social li:before {
+    margin-right: 10px;
+}
+.social .mastodon li:before {
+    content: url('icons/mastodon.svg');
+}
+.social .X li:before {
+    content: url('icons/x.svg');
+}
+.social .fa li:before {
+    content: url('icons/fa.svg')
+}
+.social .telegram li:before {
+    content: url('icons/telegram.svg')
+}
+.social .discord li:before {
+    content: url('icons/discord.svg')
+}
+.social .mail li:before {
+    content: url('icons/mail.svg')
+}
+
+
+.copyright p {
+    color: #d2c8c8;
+    text-align: center;
+}
+.copyright {
+    margin-top: 10%;
+}
+
+
+/* 404 */
+.title_error h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 80%;
+}
+figcaption {
+    color: #EF626C;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.back a:before {
+    margin-left:20px;
+}
+.back a::after {
+    content: url('icons/paw.svg');
+    margin-left: 5px;
+}
+
+.lang a:before {
+    margin-left: 20px;
+}
+.lang a::after {
+    content: url('icons/paw.svg');
+    margin-left: 5px;
+}
