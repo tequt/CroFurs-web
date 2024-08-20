@@ -68,22 +68,22 @@ a {
     margin-right: 10px;
 }
 .social .mastodon li:before {
-    content: url('icons/mastodon.svg');
+    content: url('/icons/mastodon.svg');
 }
 .social .X li:before {
-    content: url('icons/x.svg');
+    content: url('/icons/x.svg');
 }
 .social .fa li:before {
-    content: url('icons/fa.svg')
+    content: url('/icons/fa.svg')
 }
 .social .telegram li:before {
-    content: url('icons/telegram.svg')
+    content: url('/icons/telegram.svg')
 }
 .social .discord li:before {
-    content: url('icons/discord.svg')
+    content: url('/icons/discord.svg')
 }
 .social .mail li:before {
-    content: url('icons/mail.svg')
+    content: url('/icons/mail.svg')
 }
 
 
@@ -119,7 +119,7 @@ figcaption {
     margin-left:20px;
 }
 .back a::after {
-    content: url('icons/paw.svg');
+    content: url('/icons/paw.svg');
     margin-left: 5px;
 }
 
@@ -127,6 +127,6 @@ figcaption {
     margin-left: 20px;
 }
 .lang a::after {
-    content: url('icons/paw.svg');
+    content: url('/icons/paw.svg');
     margin-left: 5px;
 }
