@@ -1,0 +1,185 @@
+html {
+    margin: auto;
+    max-width: 1300px;
+}
+body {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #141414;
+    font-family: sans-serif;
+    color: #E0E2DB;
+    /*margin: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;*/
+}
+
+
+a {
+   color: #D1495B;
+}
+
+.title h1 {
+    color: #E0E2DB;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+
+/* Navigation */
+.navigation {
+    width: 100%;
+    position: relative;
+}
+.navigation p{
+    text-align: center;
+}
+.navigation a {
+    margin-right: 10%;
+}
+
+/* About me */
+.identity-gpg p {
+    color: #D1495B;
+    text-align: center;
+    font-size: 25px;
+}
+.identity-signify p {
+    color: #D1495B;
+    text-align: center;
+    font-size: 21px;
+    overflow-wrap: break-word;
+}
+
+.social li {
+    list-style-type: none;
+}
+.social section {
+    margin-top: 100px;
+}
+.social li:before {
+    margin-right: 10px;
+}
+.social .mastodon li:before {
+    content: url('/furs/xunillen/icons/mastodon.svg');
+}
+.social .github li:before {
+    content: url('/furs/xunillen/icons/github.svg')
+}
+.social .mail li:before {
+    content: url('/furs/xunillen/icons/mail.svg')
+}
+/* Because of scrappers... */
+.social .mail {
+    pointer-events: none;
+}
+/* End of about me*/
+
+/* 404 */
+.title_404 h1 {
+    text-align: center;
+}
+
+
+.posts {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.posts h3 {
+    margin-top: 40px;
+}
+
+.posts p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.posts h4 a{
+    pointer-events: none;
+    text-decoration: none;
+} 
+
+
+
+.posts section {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/*
+.social hr {
+    position: absolute;
+    width: 30%;
+    margin-left: 5%;
+    rotate: 90deg;
+}
+*/
+
+/* Default back style */
+.back p{
+    margin-top: 60px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+figcaption {
+    color: #D1495B;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+.content {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin: auto;
+}
+
+.content p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content img {
+    width: 40%;
+    height: 40%;
+}
+
+.content pre {
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+    white-space: pre-wrap;
+}
+
+.content code {
+    color: #D1495B;
+    font-size: 14px;
+}
+.content h2 {
+    margin-top: 40px;
+}
+.content h3 {
+    margin-top: 30px;
+}
+.content h4 {
+    margin-top: 20px;
+}
+.content li {
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.content-nav section {
+    margin-top: 100px;
+}
+.content-nav li:before {
+    margin-right: 10px;
+}
