@@ -41,6 +41,17 @@ git clone https://github.com/Your-username/CroFurs-web
       |-- pages/        -> Sadrži ostale stranice
       `-- styles/       -> Sadrži sve CSS datoteke
     ```
-  4. Nakon Svih promjena, napravite pull request. Nakon što se pull request prihvati i merga u glavni repo, skripta će tijekom dana ažurirat stranicu na serveru.
+  4. Dodajte link do svoje stranice na stranici unutar direktorija `/pages/furs.html`. npr.
+    ```
+    ...
+    <ul>
+        <li><a href="/furs/xunillen/index.html">Xunillen</a></li>
+    </ul>
+   ...
+
+    To treba staviti u sekciju za vaše prvo početno slovo (npr. u ovom slučaju x), te ako ta sekcija ne postoji treba je napraviti.
+    PS. Treba poštovati ostale ljude, te pratiti abecedni red tijekom stavljanja svog linka na stranicu
+    ```
+  6. Nakon Svih promjena, napravite pull request. Nakon što se pull request prihvati i merga u glavni repo, skripta će tijekom dana ažurirat stranicu na serveru.
  
 Primjer stranice: https://crofurs.hr/furs/xunillen/
